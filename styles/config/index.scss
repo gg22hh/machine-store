@@ -1,0 +1,16 @@
+@import 'variables.scss';
+@import 'mixins.scss';
+@import 'fonts.scss';
+@import 'null.scss';
+
+body {
+  font-family: $fontFamily, sans-serif;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: $containerWidth + 30px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
