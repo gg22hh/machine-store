@@ -21,24 +21,6 @@
       margin-right: 3px;
     }
   }
-  &__menu-list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 16px;
-    margin-right: 139px;
-    li + li {
-      margin-left: 45px;
-    }
-    a {
-      color: #fff;
-      letter-spacing: 0.05em;
-      padding-bottom: 9px;
-      &:hover {
-        border-bottom: 1px solid #fff;
-      }
-    }
-  }
   &__logo {
     margin-right: auto;
   }
