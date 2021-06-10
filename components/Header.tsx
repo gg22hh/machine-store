@@ -7,7 +7,7 @@ export const Header: FC = () => {
     <header className="header">
       <div className="container">
         <div className="header__inner">
-          <img className="header__logo" src="/images/logo.png" alt="" />
+          <a href="#"><img className="header__logo" src="/images/logo.png" alt="" /></a> 
           <Nav />
           <Cart />
         </div>
