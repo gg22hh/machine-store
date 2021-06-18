@@ -1,7 +1,7 @@
-import React from "react";
+import React, { FC } from "react";
 import { PointsItem } from "./PointsItem";
 
-export const Points = () => {
+export const Points: FC = () => {
   return (
     <div className="points">
       <div className="container">

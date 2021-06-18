@@ -1,17 +1,9 @@
-import Head from "next/head";
-import { Header } from "../components";
+import { FC } from "react";
+import { MainLayout } from "../components";
 
-const Products = () => {
+const Products: FC = () => {
   return (
-    <div className="app">
-      <Head>
-        <title>Products</title>
-        <meta name="description" content="Products Page" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <Header />
-      <div className="main main--home"></div>
-    </div>
+    <MainLayout title="Products" metaDescription="Products Page"></MainLayout>
   );
 };
 
