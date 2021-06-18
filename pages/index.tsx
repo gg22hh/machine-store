@@ -1,17 +1,12 @@
-import Head from "next/head";
-import { Header } from "../components";
+import { FC } from "react";
+import { MainLayout, MainTopContent, Points } from "../components";
 
-const Home = () => {
+const Home: FC = () => {
   return (
-    <div className="app">
-      <Head>
-        <title>Home</title>
-        <meta name="description" content="Homepage" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <Header />
-      <div className="main main--home"></div>
-    </div>
+    <MainLayout title="Home" metaDescription="Home page">
+      <MainTopContent />
+      <Points />
+    </MainLayout>
   );
 };
 

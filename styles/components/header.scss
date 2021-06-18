@@ -2,25 +2,28 @@
   position: absolute;
   top: 0;
   left: 0;
-  height: 50px;
   width: 100%;
+  z-index: 10;
 
   &__inner {
-    padding: 20px 65px;
+    padding: 20px 0;
     display: flex;
     justify-content: flex-end;
     align-items: center;
   }
+
   &__cart {
     display: flex;
     align-items: center;
     color: #fff;
     position: relative;
+
     &-number {
       font-size: 15px;
       margin-right: 3px;
     }
   }
+
   &__logo {
     margin-right: auto;
   }

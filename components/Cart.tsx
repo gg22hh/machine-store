@@ -1,11 +1,13 @@
-import { FC } from "react"
-
+import { FC } from "react";
+import Link from "next/link";
 
 export const Cart: FC = () => {
   return (
-    <a href="#" className="cart">
-      <span className="cart__count">1</span>
-      <img className="cart__image" src="/images/card.svg" alt="" />
-    </a>
-  )
-}
+    <Link href="/cart">
+      <a className="cart">
+        <span className="cart__count">1</span>
+        <img className="cart__image" src="/images/card.svg" alt="" />
+      </a>
+    </Link>
+  );
+};
