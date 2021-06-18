@@ -1,5 +1,4 @@
-import { FC } from "react"
-
+import { FC } from "react";
 
 export const Cart: FC = () => {
   return (
@@ -7,5 +6,5 @@ export const Cart: FC = () => {
       <span className="cart__count">1</span>
       <img className="cart__image" src="/images/card.svg" alt="" />
     </a>
-  )
-}
+  );
+};
