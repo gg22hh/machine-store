@@ -65,7 +65,7 @@ export const Contacts: FC = () => {
             />
             <input
               type="submit"
-              value="Subsccribe"
+              value="Subscribe"
               className="contact__button"
             />
           </ContactsItem>
