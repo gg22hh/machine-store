@@ -9,8 +9,7 @@
   &__inner {
     padding: 31px 0 18px;
     max-width: 942px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
 
   &-main {
@@ -20,18 +19,14 @@
   }
 
   &-item__title {
-    font-family: "Jost";
-    font-size: 16px;
-    line-height: 23px;
     letter-spacing: 0.05em;
     color: #ffffff;
     margin-bottom: 19px;
   }
 
   &-item__link {
-    font-family: Inter;
+    font-family: "Inter";
     font-style: normal;
-    font-weight: 300;
     font-size: 14px;
     line-height: 17px;
     color: #787d82;
@@ -45,22 +40,18 @@
     color: #4c5054;
 
     &__text {
-      font-family: "Jost";
-      font-style: normal;
-      font-weight: 300;
       margin-bottom: 11px;
     }
 
     &__subtext {
       font-family: "Inter";
-      font-style: normal;
-      font-weight: 300;
       font-size: 14px;
       line-height: 17px;
       position: relative;
+
       &::after {
         content: "";
-        background-image: url(/public/images/footer-icon2.png);
+        background-image: url("/images/svg/registered.svg");
         position: absolute;
         top: 0;
         right: 0;
@@ -71,9 +62,10 @@
       span {
         position: relative;
         padding-right: 21px;
+
         &::before {
           content: "";
-          background-image: url(/public/images/footer-icon.png);
+          background-image: url("/images/svg/copyright.svg");
           position: absolute;
           top: 0;
           right: 0;
@@ -88,6 +80,7 @@
 .accessoires-link {
   display: flex;
   justify-content: space-between;
+
   ul:not(:first-child) {
     margin-left: 34px;
   }

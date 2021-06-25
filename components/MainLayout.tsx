@@ -1,6 +1,7 @@
 import { FC } from "react";
 import Head from "next/head";
 import { Header } from "./Header";
+import { Footer } from "./Footer";
 
 interface Props {
   title: string;
@@ -16,7 +17,8 @@ export const MainLayout: FC<Props> = ({ children, title, metaDescription }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <div className="main main--home">{children}</div>
+      <div className="main">{children}</div>
+      {title !== "Home" && <Footer />}
     </div>
   );
 };

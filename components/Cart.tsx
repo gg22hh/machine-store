@@ -6,7 +6,7 @@ export const Cart: FC = () => {
     <Link href="/cart">
       <a className="cart">
         <span className="cart__count">1</span>
-        <img className="cart__image" src="/images/card.svg" alt="" />
+        <img className="cart__image" src="/images/svg/card.svg" alt="" />
       </a>
     </Link>
   );
