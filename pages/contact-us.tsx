@@ -1,12 +1,12 @@
 import { FC } from "react";
-import { MainLayout } from "../components";
+import { MainLayout, Contacts, Footer } from "../components";
 
 const ContactUs: FC = () => {
   return (
-    <MainLayout
-      title="Contact Us"
-      metaDescription="Contact Us Page"
-    ></MainLayout>
+    <MainLayout title="Contact Us" metaDescription="Contact Us Page">
+      <Contacts />
+      <Footer />
+    </MainLayout>
   );
 };
 
