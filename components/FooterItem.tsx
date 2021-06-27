@@ -8,7 +8,7 @@ export const FooterItem: FC<Props> = ({ title, children }) => {
   return (
     <div className="footer__item">
       <div className="footer-item__title">{title}</div>
-      <ul className="footer-item__link">{children}</ul>
+      <ul className="footer-item__links">{children}</ul>
     </div>
   );
 };

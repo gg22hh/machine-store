@@ -49,30 +49,75 @@
       line-height: 17px;
       position: relative;
 
-      &::after {
-        content: "";
-        background-image: url("/images/svg/registered.svg");
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 12px;
-        height: 12px;
-      }
-
-      span {
-        position: relative;
+      .subtext-first__icon {
         padding-right: 21px;
+        position: relative;
 
-        &::before {
+        &::after {
           content: "";
-          background-image: url("/images/svg/copyright.svg");
           position: absolute;
-          top: 0;
-          right: 0;
+          background-image: url("/images/svg/copyright.svg");
           width: 12px;
           height: 12px;
+          top: 3px;
+          right: 3px;
         }
       }
+
+      .subtext-second__icon {
+        padding-right: 10px;
+        position: relative;
+
+        &::after {
+          content: "";
+          position: absolute;
+          background-image: url("/images/svg/trademark.svg");
+          width: 10px;
+          height: 10px;
+          top: 0;
+          right: 0;
+        }
+      }
+
+      .subtext-third__icon {
+        padding-right: 13px;
+        position: relative;
+
+        &::after {
+          content: "";
+          position: absolute;
+          background-image: url("/images/svg/registered.svg");
+          width: 10px;
+          height: 10px;
+          top: 0;
+          right: 0;
+        }
+      }
+
+      // &::after {
+      //   content: "";
+      //   background-image: url("/images/svg/registered.svg");
+      //   position: absolute;
+      //   top: 0;
+      //   right: 0;
+      //   width: 12px;
+      //   height: 12px;
+      // }
+
+      // span {
+      //   position: relative;
+      //   padding-right: 21px;
+
+      //   &::before {
+      //     content: "";
+      //     background-image: url("/images/svg/copyright.svg");
+      //     position: absolute;
+      //     top: 0;
+      //     right: 0;
+      //     width: 12px;
+      //     height: 12px;
+      //   }
+      // }
     }
   }
 }
@@ -81,7 +126,7 @@
   display: flex;
   justify-content: space-between;
 
-  ul:not(:first-child) {
+  &__list:not(:first-child) {
     margin-left: 34px;
   }
 }

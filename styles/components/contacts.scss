@@ -2,7 +2,7 @@
   display: flex;
 }
 
-.contacts__item {
+.contacts-item {
   max-width: 420px;
 
   &:not(:last-child) {
@@ -18,8 +18,6 @@
 
   .item__text {
     font-family: "Inter";
-    font-style: normal;
-    font-weight: 300;
     font-size: 14px;
     line-height: 17px;
     color: #4c5054;
@@ -33,11 +31,9 @@
     background: rgba(255, 255, 255, 0.02);
     backdrop-filter: blur(8px);
     border-radius: 17px;
-    outline: none;
     margin-bottom: 20px;
     font-family: "Inter";
     font-style: normal;
-    font-weight: 300;
     font-size: 14px;
     line-height: 17px;
     color: #4c5054;
@@ -45,8 +41,6 @@
 
     &::placeholder {
       font-family: "Inter";
-      font-style: normal;
-      font-weight: 300;
       font-size: 14px;
       line-height: 17px;
       color: #4c5054;
@@ -60,11 +54,8 @@
     background: rgba(255, 255, 255, 0.02);
     backdrop-filter: blur(8px);
     border-radius: 17px;
-    outline: none;
     margin-bottom: 20px;
     font-family: "Inter";
-    font-style: normal;
-    font-weight: 300;
     font-size: 14px;
     line-height: 17px;
     color: #4c5054;
@@ -74,8 +65,6 @@
 
     &::placeholder {
       font-family: "Inter";
-      font-style: normal;
-      font-weight: 300;
       font-size: 14px;
       line-height: 17px;
       color: #4c5054;

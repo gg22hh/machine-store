@@ -34,11 +34,9 @@ export const Contacts: FC = () => {
               placeholder="Message"
               required
             />
-            <input
-              type="submit"
-              value="Send message"
-              className="contact__button"
-            />
+            <button className="contact__button" type="submit">
+              Send message
+            </button>
           </ContactsItem>
 
           <ContactsItem
@@ -63,11 +61,9 @@ export const Contacts: FC = () => {
               placeholder="e-mail"
               required
             />
-            <input
-              type="submit"
-              value="Subscribe"
-              className="contact__button"
-            />
+            <button className="contact__button" type="submit">
+              Subscribe
+            </button>
           </ContactsItem>
         </div>
       </div>

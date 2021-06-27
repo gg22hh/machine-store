@@ -65,7 +65,7 @@ export const Footer: FC = () => {
 
           <FooterItem title="Accessoires">
             <div className="accessoires-link">
-              <ul className="accessoires-link__first">
+              <ul className="accessoires-link__list">
                 <li>
                   <a href="#">Bonehead helmets</a>
                 </li>
@@ -85,7 +85,7 @@ export const Footer: FC = () => {
                   <a href="#">Wall arts</a>
                 </li>
               </ul>
-              <ul className="accessoires-link__second">
+              <ul className="accessoires-link__list">
                 <li>
                   <a href="#">1/6 figures</a>
                 </li>
@@ -106,14 +106,17 @@ export const Footer: FC = () => {
           </FooterItem>
         </div>
         <div className="footer-secondary">
-          <div className="footer-secondary__text">
+          <p className="footer-secondary__text">
             This site is protected by recaptcha and the google privacy policy
             and terms of service apply
-          </div>
-          <div className="footer-secondary__subtext">
-            <span>Copyright</span> 5060 /machine 56
+          </p>
+          <p className="footer-secondary__subtext">
+            <span className="subtext-first__icon">Copyright</span>{" "}
+            <span className="subtext-second__icon">5060</span>
+            {""}
+            <span className="subtext-third__icon">/machine 56</span>
             <p>All rights reserved</p>
-          </div>
+          </p>
         </div>
       </div>
     </div>
