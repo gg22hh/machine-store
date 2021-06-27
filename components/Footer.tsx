@@ -7,7 +7,7 @@ export const Footer: FC = () => {
       <div className="footer__inner">
         <div className="footer-main">
           <FooterItem title="Networks">
-            <ul>
+            <ul className="footer-item__links">
               <li>
                 <a href="#">Instagram</a>
               </li>
@@ -21,7 +21,7 @@ export const Footer: FC = () => {
           </FooterItem>
 
           <FooterItem title="Menu">
-            <ul>
+            <ul className="footer-item__links">
               <li>
                 <a href="#">Home</a>
               </li>
@@ -41,7 +41,7 @@ export const Footer: FC = () => {
           </FooterItem>
 
           <FooterItem title="Products">
-            <ul>
+            <ul className="footer-item__links">
               <li>
                 <a href="#">Jackets</a>
               </li>
@@ -70,45 +70,43 @@ export const Footer: FC = () => {
           </FooterItem>
 
           <FooterItem title="Accessoires">
-            <div className="footer-item__inner">
-              <ul className="accessoires-links">
-                <li>
-                  <a href="#">Bonehead helmets</a>
-                </li>
-                <li>
-                  <a href="#">Demon plate series</a>
-                </li>
-                <li>
-                  <a href="#">Hf/bat</a>
-                </li>
-                <li>
-                  <a href="#">Masks</a>
-                </li>
-                <li>
-                  <a href="#">Moleskine jackets</a>
-                </li>
-                <li>
-                  <a href="#">Wall arts</a>
-                </li>
-              </ul>
-              <ul className="accessoires-links">
-                <li>
-                  <a href="#">1/6 figures</a>
-                </li>
-                <li>
-                  <a href="#">Sticker packs</a>
-                </li>
-                <li>
-                  <a href="#">Vector packs</a>
-                </li>
-                <li>
-                  <a href="#">Posters</a>
-                </li>
-                <li>
-                  <a href="#">Fonts</a>
-                </li>
-              </ul>
-            </div>
+            <ul className="footer-item__links">
+              <li>
+                <a href="#">Bonehead helmets</a>
+              </li>
+              <li>
+                <a href="#">Demon plate series</a>
+              </li>
+              <li>
+                <a href="#">Hf/bat</a>
+              </li>
+              <li>
+                <a href="#">Masks</a>
+              </li>
+              <li>
+                <a href="#">Moleskine jackets</a>
+              </li>
+              <li>
+                <a href="#">Wall arts</a>
+              </li>
+            </ul>
+            <ul className="footer-item__links">
+              <li>
+                <a href="#">1/6 figures</a>
+              </li>
+              <li>
+                <a href="#">Sticker packs</a>
+              </li>
+              <li>
+                <a href="#">Vector packs</a>
+              </li>
+              <li>
+                <a href="#">Posters</a>
+              </li>
+              <li>
+                <a href="#">Fonts</a>
+              </li>
+            </ul>
           </FooterItem>
         </div>
         <div className="footer-secondary">
@@ -117,10 +115,10 @@ export const Footer: FC = () => {
             and terms of service apply
           </p>
           <p className="footer-secondary__subtext">
-            <span className="subtext-first__icon">Copyright</span>{" "}
+            <span className="subtext-first__icon">Copyright</span>
             <span className="subtext-second__icon">5060</span>
             <span className="subtext-third__icon">/machine 56</span>
-            <p>All rights reserved</p>
+            <span>All rights reserved</span>
           </p>
         </div>
       </div>

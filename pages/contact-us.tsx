@@ -3,7 +3,11 @@ import { MainLayout, ContactsItem } from "../components";
 
 const ContactUs: FC = () => {
   return (
-    <MainLayout title="Contact Us" metaDescription="Contact Us Page">
+    <MainLayout
+      title="Contact Us"
+      metaDescription="Contact Us Page"
+      backgroundImageName="about-and-contacts.jpg"
+    >
       <div className="contacts">
         <div className="container">
           <div className="contacts__inner">

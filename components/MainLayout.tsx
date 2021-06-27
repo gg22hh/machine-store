@@ -7,9 +7,15 @@ import { useUserInPage } from "../hooks";
 interface Props {
   title: string;
   metaDescription: string;
+  backgroundImageName: string;
 }
 
-export const MainLayout: FC<Props> = ({ children, title, metaDescription }) => {
+export const MainLayout: FC<Props> = ({
+  children,
+  title,
+  metaDescription,
+  backgroundImageName = "default.jpg",
+}) => {
   const isHomePage = useUserInPage("/");
 
   return (
@@ -20,7 +26,12 @@ export const MainLayout: FC<Props> = ({ children, title, metaDescription }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
-      <div className={`${isHomePage ? "main main--home" : "main"}`}>
+      <div
+        style={{
+          backgroundImage: `url(/images/backgrounds/${backgroundImageName})`,
+        }}
+        className="main"
+      >
         {children}
       </div>
       {!isHomePage && <Footer />}

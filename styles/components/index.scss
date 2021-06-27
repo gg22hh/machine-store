@@ -5,17 +5,22 @@
 .main {
   height: 100%;
   width: 100%;
-  // background-image: url("/images/backgrounds/default.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #000;
   padding-top: 140px;
   position: relative;
-  opacity: 0.05;
-}
+  z-index: 0;
+  padding-bottom: 40px;
 
-.main--home {
-  opacity: 0.1;
-  background-image: url("/images/backgrounds/homepage.jpg");
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(#000, 0.9);
+    z-index: -1;
+  }
 }
