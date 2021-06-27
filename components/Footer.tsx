@@ -119,7 +119,6 @@ export const Footer: FC = () => {
           <p className="footer-secondary__subtext">
             <span className="subtext-first__icon">Copyright</span>{" "}
             <span className="subtext-second__icon">5060</span>
-            {""}
             <span className="subtext-third__icon">/machine 56</span>
             <p>All rights reserved</p>
           </p>
