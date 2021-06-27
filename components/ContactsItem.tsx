@@ -8,7 +8,7 @@ interface Props {
 export const ContactsItem: FC<Props> = ({ title, text, children }) => {
   return (
     <div className="contacts-item">
-      <h1 className="item__title">{title}</h1>
+      <h3 className="item__title">{title}</h3>
       <p className="item__text">{text}</p>
       {children}
     </div>

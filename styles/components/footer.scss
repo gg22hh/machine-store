@@ -93,40 +93,15 @@
           right: 0;
         }
       }
-
-      // &::after {
-      //   content: "";
-      //   background-image: url("/images/svg/registered.svg");
-      //   position: absolute;
-      //   top: 0;
-      //   right: 0;
-      //   width: 12px;
-      //   height: 12px;
-      // }
-
-      // span {
-      //   position: relative;
-      //   padding-right: 21px;
-
-      //   &::before {
-      //     content: "";
-      //     background-image: url("/images/svg/copyright.svg");
-      //     position: absolute;
-      //     top: 0;
-      //     right: 0;
-      //     width: 12px;
-      //     height: 12px;
-      //   }
-      // }
     }
   }
 }
 
-.accessoires-link {
+.footer-item__inner {
   display: flex;
   justify-content: space-between;
 
-  &__list:not(:first-child) {
+  .accessoires-links:not(:first-child) {
     margin-left: 34px;
   }
 }

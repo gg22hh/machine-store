@@ -7,65 +7,71 @@ export const Footer: FC = () => {
       <div className="footer__inner">
         <div className="footer-main">
           <FooterItem title="Networks">
-            <li>
-              <a href="#">Instagram</a>
-            </li>
-            <li>
-              <a href="#">Facebook</a>
-            </li>
-            <li>
-              <a href="#">Behance</a>
-            </li>
+            <ul>
+              <li>
+                <a href="#">Instagram</a>
+              </li>
+              <li>
+                <a href="#">Facebook</a>
+              </li>
+              <li>
+                <a href="#">Behance</a>
+              </li>
+            </ul>
           </FooterItem>
 
           <FooterItem title="Menu">
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">Products</a>
-            </li>
-            <li>
-              <a href="#">Artists</a>
-            </li>
-            <li>
-              <a href="#">Contact us</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Products</a>
+              </li>
+              <li>
+                <a href="#">Artists</a>
+              </li>
+              <li>
+                <a href="#">Contact us</a>
+              </li>
+              <li>
+                <a href="#">About</a>
+              </li>
+            </ul>
           </FooterItem>
 
           <FooterItem title="Products">
-            <li>
-              <a href="#">Jackets</a>
-            </li>
-            <li>
-              <a href="#">Sweatshirts</a>
-            </li>
-            <li>
-              <a href="#">Hoodies</a>
-            </li>
-            <li>
-              <a href="#">Tees</a>
-            </li>
-            <li>
-              <a href="#">Hoodies + T-shirt packs</a>
-            </li>
-            <li>
-              <a href="#">Pants</a>
-            </li>
-            <li>
-              <a href="#">Backpacks/carriers</a>
-            </li>
-            <li>
-              <a href="#">Vault hunters</a>
-            </li>
+            <ul>
+              <li>
+                <a href="#">Jackets</a>
+              </li>
+              <li>
+                <a href="#">Sweatshirts</a>
+              </li>
+              <li>
+                <a href="#">Hoodies</a>
+              </li>
+              <li>
+                <a href="#">Tees</a>
+              </li>
+              <li>
+                <a href="#">Hoodies + T-shirt packs</a>
+              </li>
+              <li>
+                <a href="#">Pants</a>
+              </li>
+              <li>
+                <a href="#">Backpacks/carriers</a>
+              </li>
+              <li>
+                <a href="#">Vault hunters</a>
+              </li>
+            </ul>
           </FooterItem>
 
           <FooterItem title="Accessoires">
-            <div className="accessoires-link">
-              <ul className="accessoires-link__list">
+            <div className="footer-item__inner">
+              <ul className="accessoires-links">
                 <li>
                   <a href="#">Bonehead helmets</a>
                 </li>
@@ -85,7 +91,7 @@ export const Footer: FC = () => {
                   <a href="#">Wall arts</a>
                 </li>
               </ul>
-              <ul className="accessoires-link__list">
+              <ul className="accessoires-links">
                 <li>
                   <a href="#">1/6 figures</a>
                 </li>
