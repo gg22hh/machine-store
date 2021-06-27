@@ -7,7 +7,7 @@ import { useUserInPage } from "../hooks";
 interface Props {
   title: string;
   metaDescription: string;
-  backgroundImageName: string;
+  backgroundImageName?: string;
 }
 
 export const MainLayout: FC<Props> = ({
