@@ -1,16 +1,15 @@
-import { FC } from "react";
-import { NavItem } from "./NavItem";
+import { FC, useState } from "react";
+import { NavList } from "./NavList";
 
 export const Nav: FC = () => {
+  const [menuActive, setMenuActive] = useState(false)
   return (
     <nav className="nav">
-      <ul className="nav__list">
-        <NavItem text="Home" href="/" />
-        <NavItem text="Products" href="/products" />
-        <NavItem text="Artists" href="/artists" />
-        <NavItem text="Contact Us" href="/contact-us" />
-        <NavItem text="About" href="/about" />
-      </ul>
+      <button className="nav__burger" onClick={() => setMenuActive(prevState => !prevState)}>
+        <span />
+      </button>
+
+    <NavList active={menuActive}/>
     </nav>
   );
 };

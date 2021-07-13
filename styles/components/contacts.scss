@@ -82,3 +82,20 @@
     cursor: pointer;
   }
 }
+
+
+
+@media (max-width:1055px) {
+  .contacts__inner {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+
+  .contacts-item {
+    margin: 0 auto 20px;
+
+    &:not(:last-child) {
+      margin-right: auto;
+    }
+  }
+}

@@ -101,3 +101,51 @@
     margin-right: 34px;
   }
 }
+
+
+
+@media (max-width: 1000px) {
+  .footer-main {
+    justify-content: center;
+  }
+
+  .footer__item:not(:last-child) {
+    margin-right: 35px;
+  }
+}
+
+@media (max-width: 750px) {
+  .footer-main {
+    flex-wrap: wrap;
+  }
+
+  .footer__item {
+    text-align: center;
+    width: 50%;
+    &:not(:last-child) {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+  }
+
+  .footer-item__title {
+    font-size: 22px;
+  }
+
+  .footer-item__inner {
+    display: block;
+    .footer-item__links:not(:last-child) {
+      margin-right: 0;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .footer-main {
+    display: block;
+  }
+
+  .footer__item {
+    width: 100%;
+  }
+}

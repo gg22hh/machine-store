@@ -7,7 +7,7 @@ interface Props {
   text: string;
 }
 
-export const NavItem: FC<Props> = ({ href, text }) => {
+export const NavItem: FC<Props> = ({ href, text,}) => {
   const isUserInPage = useUserInPage(href);
 
   return (
