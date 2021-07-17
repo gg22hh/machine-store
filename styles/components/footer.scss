@@ -14,7 +14,7 @@
     margin-bottom: 38px;
   }
 
-  &-item__title {
+  &__item-title {
     letter-spacing: 0.05em;
     color: #ffffff;
     margin-bottom: 19px;
@@ -93,7 +93,7 @@
   }
 }
 
-.footer-item__inner {
+.footer__item-inner {
   display: flex;
   justify-content: space-between;
 

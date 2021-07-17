@@ -7,8 +7,8 @@ interface Props {
 export const FooterItem: FC<Props> = ({ title, children }) => {
   return (
     <div className="footer__item">
-      <div className="footer-item__title">{title}</div>
-      <div className="footer-item__inner">{children}</div>
+      <div className="footer__item-title">{title}</div>
+      <div className="footer__item-inner">{children}</div>
     </div>
   );
 };
