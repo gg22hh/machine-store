@@ -1,0 +1,19 @@
+.about-text {
+  font-family: "Inter";
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #fff;
+  border: 1px solid #000;
+  width: 929px;
+  margin: 0 auto 64px;
+  &__link {
+    font-family: "Jost";
+    font-size: 16px;
+    line-height: 23px;
+    color: #787D82;
+  }
+  p {
+    margin-bottom: 22px;
+  }
+}

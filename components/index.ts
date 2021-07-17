@@ -6,3 +6,4 @@ export { Points } from "./Points";
 export { MainLayout } from "./MainLayout";
 export { ContactsItem } from "./ContactsItem";
 export { Footer } from "./Footer";
+export { AboutText } from "./AboutText"
