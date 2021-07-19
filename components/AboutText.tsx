@@ -13,7 +13,7 @@ export const AboutText: FC = () => {
       <p>To see more of our works and daily news updates, please visit our Instagram for daily updates and information.</p>
       <p>For local customer (Indonesia), please directly shop at our official Tokopedia page.</p>
       <p>Have a nice day!</p>
-      <span className="about-text__link">https://www.tokopedia.com/machine56/home</span>
+      <a href="#" className="about-text__link">https://www.tokopedia.com/machine56/home</a>
     </div>
   )
 }
