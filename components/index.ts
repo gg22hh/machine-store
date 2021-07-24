@@ -4,3 +4,6 @@ export { Nav } from "./Nav";
 export { MainTopContent } from "./MainTopContent";
 export { Points } from "./Points";
 export { MainLayout } from "./MainLayout";
+export { ContactsItem } from "./ContactsItem";
+export { Footer } from "./Footer";
+export { NavList } from "./NavList";
